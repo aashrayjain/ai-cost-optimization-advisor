@@ -1,0 +1,45 @@
+{
+  "name": "ai_cost_advice",
+  "strict": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "task_type": {
+        "type": "string",
+        "description": "Type of business task (e.g., Customer Support)"
+      },
+      "recommended_model": {
+        "type": "string",
+        "description": "LLM recommended for this task"
+      },
+      "estimated_cost_per_month_usd": {
+        "type": "number",
+        "description": "Estimated monthly cost in USD"
+      },
+      "roi_percent": {
+        "type": "number",
+        "description": "Return on Investment percentage from automation"
+      },
+      "automatable_tasks": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "List of tasks that can be automated"
+      },
+      "recommendation_summary": {
+        "type": "string",
+        "description": "Concise summary of recommendations for cost and model optimization"
+      }
+    },
+    "required": [
+      "task_type",
+      "recommended_model",
+      "estimated_cost_per_month_usd",
+      "roi_percent",
+      "automatable_tasks",
+      "recommendation_summary"
+    ],
+    "additionalProperties": false
+  }
+}

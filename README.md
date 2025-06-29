@@ -32,7 +32,7 @@ Helps enterprise teams:
 
 ## 📎 Try It Live
 
-🔗 [Try on Lyzr Studio](https://studio.lyzr.ai/agents/68613f05656af689f82ff2de)
+🔗 [Try on Lyzr Studio](https://studio.lyzr.ai/agent/68613f05656af689f82ff2de)
 
 ---
 

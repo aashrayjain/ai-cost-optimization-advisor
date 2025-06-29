@@ -28,7 +28,7 @@ Helps enterprise teams:
 
 ## 🖼️ Screenshot
 
-![Agent Screenshot](screenshots/agent-ui.png)
+![Agent Screenshot](screenshots/agent-ui.PNG)
 
 ## 📎 Try It Live
 
